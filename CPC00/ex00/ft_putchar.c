@@ -6,14 +6,13 @@
 /*   By: ugenki <ugenki@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 17:38:38 by msaita            #+#    #+#             */
-/*   Updated: 2021/02/23 16:22:20 by ugenki           ###   ########.fr       */
+/*   Updated: 2021/02/25 18:47:11 by ugenki           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include <unistd.h>
 
-void	ft_putchar(char c) 
-{  
+void	ft_putchar(char c)
+{
 	write(1, &c, 1);
 }

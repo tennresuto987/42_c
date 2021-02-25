@@ -6,18 +6,20 @@
 /*   By: ugenki <ugenki@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/24 15:57:53 by ugenki            #+#    #+#             */
-/*   Updated: 2021/02/24 15:57:53 by ugenki           ###   ########.fr       */
+/*   Updated: 2021/02/25 20:49:59 by ugenki           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void  ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-  char c='a'; 
-  while (c <='z')
-  {
-     write(1, &c, 1);
-     c++;
-  }
+	char c;
+
+	c = 'a';
+	while (c <= 'z')
+	{
+		write(1, &c, 1);
+		c++;
+	}
 }
